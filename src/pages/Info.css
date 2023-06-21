@@ -1,0 +1,91 @@
+
+.info_cnt{
+    display: flex;
+    gap: 20px;
+     width: 75%;
+    min-width:1100px; 
+    padding: 20px;
+    margin: 0px auto;
+
+}
+
+.info_image{
+   width: 500px;
+    border-radius: 20px;
+
+}
+
+.info_data{
+     height: 750px;
+    max-width: 50%;
+
+ }
+
+.m_title{
+    margin: 40px;
+    font-size: 3em;
+    font-weight:bolder ;
+    font-family: 'Archivo', sans-serif;
+}
+
+.m_data{
+    
+    margin: 40px;
+    font-size: 1.15rem;
+    line-height: 25px;
+    font-family: 'Archivo', sans-serif;
+
+}
+
+.m_genre{
+    margin-left: 45px;
+    padding: 5px;
+    border: 1px solid rgba(252, 252, 252, 0.322);
+    padding: 10px;
+    border-radius: 6px;
+
+}
+
+
+.m_star{
+    margin-left: 45px;
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+    margin-top: 2px;
+}
+
+.m_review{
+    margin-top: 30px;
+    font-size: large;
+}
+
+.page_cnt h3{
+padding-top: 20px;
+margin-left: 45px;
+}
+
+.m_font{
+    font-weight: 100;
+}
+
+@media screen  and (max-width:1028px){
+     .info_cnt{
+        flex-direction: column;
+        min-width:100%; 
+        justify-content: center;
+    } 
+
+    .info_data{
+        max-width: 100%;
+    }
+
+    .info_image{
+        
+        margin: 2px auto;
+     
+     }
+     
+    
+
+}

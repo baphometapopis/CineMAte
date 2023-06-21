@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Poppins:wght@200;300&display=swap');
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+  
+  }
+
+
+  
+
+.App{
+  min-width:565px;
+  background-color: rgb(28, 39, 63);
+  color: antiquewhite;
+padding-bottom: 20px;
+/* height:100%;
+ */height: fit-content;
+
+
+}
+
+main{
+  min-height: 90vh;
+}

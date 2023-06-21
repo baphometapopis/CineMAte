@@ -1,0 +1,83 @@
+header{
+    background-color: rgb(33, 38, 48);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    min-width:565px;
+}
+
+.menu{
+    display: none;
+    height: 30px;
+    margin-top: 25px;
+}
+
+.MenuClicked{
+    display: none;
+    text-align: center;
+    list-style-type: none;
+    min-width:565px;
+    background-color: rgb(33, 38, 48);
+   color:aliceblue;
+   font-size: large;
+}
+
+.MenuClicked li{
+padding: 5px;}
+.MenuClicked li:hover{
+    color: brown;
+}
+
+header img{ 
+    margin: 10px;
+    height: 60px;
+}
+
+.logo{
+    display: flex;
+}
+h2{
+    color: aliceblue;
+margin-top: 20px;
+font-size: 2em;
+}
+
+nav{
+    display: flex;
+    list-style-type:none;
+    font-size: 1.5rem;
+    padding: 20px;
+    display: flex;
+    color: aliceblue;
+
+}
+
+li{
+    padding: 5px;
+}
+
+
+.s_input{
+    margin-left: auto;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+     font-size: 16px;
+     width: 200px;
+}
+
+@media screen  and (max-width:920px){
+    
+
+     nav{
+        display: none;
+   
+     }
+    .menu{
+        display: block;
+    }
+    .MenuClicked{
+        display: block;
+    }
+}

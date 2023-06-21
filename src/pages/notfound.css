@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.found_cnt{
+    margin: 2px auto;
+    text-align: center;
+
+}
+.no_cnt{
+    margin-top: 20rem;
+    font-size:xx-large;
+    font-family: 'Amatic SC', cursive;
+}

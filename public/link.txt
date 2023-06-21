@@ -1,0 +1,42 @@
+api key v3 auth 
+f9e8a861afcb56af4327236c2036a85f
+
+
+example api request 
+https://api.themoviedb.org/3/movie/550?api_key=f9e8a861afcb56af4327236c2036a85f
+
+API Read Access Token (v4 auth)
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmOWU4YTg2MWFmY2I1NmFmNDMyNzIzNmMyMDM2YTg1ZiIsInN1YiI6IjY0MjcyZTFlOGRlMGFlMDBmNGJmNjZlOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.YT6iekegoAvL8g-669hZURiAIT6lwgTAwFPqCvf4kCo
+
+
+Top Rated 
+https://api.themoviedb.org/3/movie/top_rated?api_key=f9e8a861afcb56af4327236c2036a85f&language=en-US&page=4
+
+
+https://api.themoviedb.org/3/movie/top_rated?api_key=f9e8a861afcb56af4327236c2036a85f&language=en-US&page=4
+
+
+
+Upcomimg 
+https://api.themoviedb.org/3/movie/upcoming?api_key=f9e8a861afcb56af4327236c2036a85f&language=en-US&page=1
+
+Popular 
+https://api.themoviedb.org/3/movie/popular?api_key=f9e8a861afcb56af4327236c2036a85f&language=en-US&page=1
+
+
+now Playing 
+https://api.themoviedb.org/3/movie/now_playing?api_key=f9e8a861afcb56af4327236c2036a85f&language=en-US&page=1
+
+
+search 
+
+https://api.themoviedb.org/3/search/movie?api_key=f9e8a861afcb56af4327236c2036a85f&language=en-US&query=avatar
+
+genre id
+
+https://api.themoviedb.org/3/genre/movie/list?api_key=f9e8a861afcb56af4327236c2036a85f&language=en-US
+
+
+https://api.themoviedb.org/3/genre/movie//gbGHezV6yrhua0KfAgwrknSOiIY.jpg
+
+https://image.tmdb.org/t/p/original/gbGHezV6yrhua0KfAgwrknSOiIY.jpg
