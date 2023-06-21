@@ -8,7 +8,7 @@ import { Search } from '../pages/Search'
 export const Navigation = () => {
   return (
     <Routes>
-        <Route path="" element={<Home api="movie/now_playing" title='Home'/>  }/>
+        <Route path="" element={<Home api="movie/now_playing" title='Home'/>  }/> 
         <Route path="movies/Popular" element={<Home api="movie/popular" title='Popular'/> }/>
         <Route path="movies/Top-Rated" element={<Home api="movie/top_rated" title='Top-Rated'/> }/>
         <Route path="movies/Upcoming" element={<Home api="movie/upcoming" title='Upcoming'/> }/>
